@@ -183,6 +183,118 @@ switch (fruta.toLowerCase()) {
 
 13) Use Operador lógico AND (&&) para verificar se um número está entre 10 e 20:
 
+var num = prompt("Digite o numero")
+if(num>=10 && num<=20){
+  alert("o numero esta entre 10 e 20")
+
+}
+else{
+  alert("tente novamente")
+ 
+}
+
+14) Use o operador ternário para verificar se uma pessoa pode votar (maior de 18 anos):
+
+var idade = parseInt(prompt("Digite sua idade"))
+if(idade>=18){
+  alert("pode votar,pois tem mais de 18 anos")
+}
+else{
+  alert("nao pode votar")
+}
+
+15) Use Operador lógico OR (||) para verificar se uma pessoa é criança ou idosa:
+
+var idade = parseInt(prompt("Digite sua idade"))
+
+if (idade < 12 || idade >= 65) {
+ alert("A pessoa é criança ou idosa.")
+} else {
+  alert("A pessoa não é criança nem idosa.")
+}
+
+16) Use Switch case para verificar a estação do ano com base no mês:
+
+var estacao = prompt("digite a estacao com base no mes")
+switch(estacao){
+  case "1":
+  alert("janeiro,verao")
+  break;
+
+  case "2":
+  alert("fevereiro,verao")
+  break;
+
+  case "3":
+  alert("março,verao")
+  break;
+
+  case "4":
+  alert("abril,outono")
+  break;
+
+  case "5":
+    alert("maio,outono")
+    break;
+
+    case "6":
+    alert("junho,inverno")
+    break;
+    
+    case "7":
+    alert("julho,inverno")
+    break;
+    
+    case "8":
+    alert("agosto,inverno")
+    break;
+    
+    case "9":
+    alert("setembro,inverno")
+    break;
+    
+    case "10":
+    alert("outubro,primavera")
+    break;
+    
+    case "11":
+    alert("novembro,primavera")
+    break;
+    
+    case "12":
+    alert("dezembro,primavera")
+    break;
+    
+}
+
+
+17) Use Operador ternário encadeado para classificar uma nota entre 0 e 10, da seguinte forma: se for
+igual ou maior que 9 a nota é “A”, se for igual a 8 nota “B”, se for igual a 7 nota “C”, se for igual a 6 nota
+“D”, se for igual a 5 ou menor, nota “F”.
+
+var nota = parseInt(prompt("Digite sua nota"))
+if(nota>=9){
+  alert("nota A")
+}
+else if(nota==8){
+  alert("nota B")
+}
+else if(nota==7){
+  alert("nota C")
+}
+else if(nota ==6){
+  alert("nota D")
+}
+else if(nota<=5){
+  alert("nota F")
+}
+
+
+
+
+
+
+
 
 
 
